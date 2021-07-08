@@ -388,7 +388,7 @@ a{
   background-color: rgba(6, 27, 53, 0.7);
   font-size: Max(18px, 1em);
   font-family: "Roboto", sans-serif;
-  background-image: url(/Images/test.png);
+  background-image: url(./Images/test.png);
   background-position: 10px 5px;
   background-repeat: no-repeat;
   padding-left: 60px;
@@ -612,7 +612,7 @@ a{
   color: white;
   top:-0.3%;
   left:25%;
-  background-image: url(/Images/test.png);
+  background-image: url(./Images/test.png);
   background-size: 30px;
   background-position: 10px 5px;
   background-repeat: no-repeat;
@@ -759,7 +759,7 @@ a{
 }
 .settings_input{
   position: relative;
-  background-image: url(/Images/test.png);
+  background-image: url(./Images/test.png);
   background-position: 10px 5px;
   background-repeat: no-repeat;
   width: 100%;
@@ -1076,7 +1076,7 @@ a{
   font-size: 20px;
   font-size: Max(16px, 1em);
   font-family: "Roboto", sans-serif;
-  background-image: url(/Images/test.png);
+  background-image: url(./Images/test.png);
   background-position: 10px 5px;
   background-repeat: no-repeat;
   background-size: 35px;
