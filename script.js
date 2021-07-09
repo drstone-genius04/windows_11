@@ -2,6 +2,7 @@
    INSTAGRAM ID - mr.dhairya.gupta
 */
 
+
 let windows_icon = document.querySelector(".windows_icon")
 let search_icon = document.querySelector(".search_icon")
 let store_icon = document.querySelector(".store_icon")
@@ -76,6 +77,8 @@ terminal_icon.addEventListener("click", ()=>{
 
 shutdown_icon.addEventListener("click", ()=>{
     auto_close('shutdown')
+    var audio = new Audio('./notification/notification.mp3');
+    audio.play();
     shutdown_menu.classList.toggle("shutdown_menu_open")
 })
 
