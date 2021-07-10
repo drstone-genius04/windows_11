@@ -1375,10 +1375,10 @@ a{
   background-color: rgba(2, 10, 22, 0.9);
   bottom: 3000px;
   transition: all 1s ease-in;
-  -webkit-transition: all 1s ease-in;
-  -moz-transition: all 1s ease-in;
-  -ms-transition: all 1s ease-in;
-  -o-transition: all 1s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
 }
 .shutdown_menu_open{
   bottom: 0;
