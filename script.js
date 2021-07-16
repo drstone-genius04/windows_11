@@ -95,3 +95,12 @@ recent_app_icon.addEventListener("click", ()=>{
 if (screen.width < 1200) {
     alert('I recommend you to visit here with a PC. Else its completely fine XD');
 }
+
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+
+t = n.getHours() + ":" + n.getMinutes()
+document.getElementById("time").innerHTML = t;

@@ -140,6 +140,40 @@ a{
   margin-top:8%;
 }
 
+.datetime{
+  position: absolute;
+  display: inline-block;
+  margin-top:5px;
+  text-align: right;
+  right: 0;
+  width: 100px;
+}
+
+.events{
+  top: 0;
+  margin-right: 20px;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.side-icons{
+  height: 100%;
+  width: 150px;
+  display: inline-block;
+}
+
+.mini{
+  padding-left:6px;
+  padding-top: 15px;
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+}
 
 /* TASKBAR END */
 
@@ -1463,6 +1497,11 @@ a{
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-device-width: 1600px) {
+  .events{
+    display: none;
+  }
+}
 
 @media only screen and (max-device-width: 1200px) {
   hr{
