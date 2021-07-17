@@ -1388,14 +1388,12 @@ a{
   position: relative;
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
-  width: 60%;
+  margin-left:250px;
+  display: inline-block;
   outline: none;
   border: none;
-  display: inline-block;
   color: #fff;
   caret-color: white;
-  border: none;
-  top: -0.5%;
 }
 /* TERMINAL MENU END */
 
