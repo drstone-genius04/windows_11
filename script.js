@@ -13,6 +13,7 @@ let terminal_icon = document.querySelector(".terminal_icon")
 let shutdown_icon = document.querySelector(".power_off")
 let actions_div = document.querySelector(".actions")
 let recent_app_icon = document.querySelector(".content")
+let videoBG = document.querySelector(".videoBG")
 
 
 let start_menu = document.querySelector(".start_menu")
@@ -37,6 +38,9 @@ function auto_close(name){
         }
     }
 }
+videoBG.addEventListener("click", ()=>{
+    auto_close()
+})
 
 windows_icon.addEventListener("click", ()=>{
     auto_close('start')
@@ -78,6 +82,7 @@ terminal_icon.addEventListener("click", ()=>{
 shutdown_icon.addEventListener("click", ()=>{
     auto_close('shutdown')
     var audio = new Audio('./notification/notification.mp3');
+    audio.currentTime="0";
     audio.play();
     shutdown_menu.classList.toggle("shutdown_menu_open")
 })
