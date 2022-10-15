@@ -109,3 +109,4 @@ document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
 
 t = n.getHours() + ":" + n.getMinutes()
 document.getElementById("time").innerHTML = t;
+console.log("hello");
